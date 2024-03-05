@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 import gdown
 import tensorflow as tf
-from retinaface.commons.logger import Logger
+from commons.logger import Logger
 
 logger = Logger(module="retinaface/model/retinaface_model.py")
 
